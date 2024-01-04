@@ -3,9 +3,9 @@ describe('empty spec', () => {
     cy.visit('/')
   })
 
-  it('displays the resources text', () => {
-    cy.get('h1')
-    .contains('Quickstart Template');
+  it('Shows home page', () => {
+    cy.get('h4')
+    .contains('The pack is getting ready...');
   })
   it('renders the image', () => {
     cy.get('img')
